@@ -1,0 +1,6 @@
+project: country_converter
+target: convert
+duration: 600
+cmds:
+    - cmd: /src/mayhem/fuzz_convert.py
+      libfuzzer
